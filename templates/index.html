@@ -1,0 +1,11 @@
+{% extends './base.html' %}
+{% block titulo %}
+    <title>{{dato.titulo}}</title>
+{% endblock %}
+
+{% block contenido%}
+    <h1>Encabezado Index</h1>
+    {{super()}}
+    <p>{{dato.encabezado}} </p>
+{% endblock %}
+
